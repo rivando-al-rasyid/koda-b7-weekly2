@@ -1,14 +1,7 @@
-const readline = require('node:readline');
-const { stdin: input, stdout: output } = require('node:process');
-const rl = readline.createInterface({ input, output });
-
-numArr = []
-
-rl.question('angka? ', (number) => {
-
-function ceking(num){
-    if (typeof number && number > 0 ){
-    for (let i = 1; i <= number; i++) {
+numArr =[]
+function triangle(num){
+    if (typeof num && num > 0 ){
+    for (let i = 1; i <= num; i++) {
       numArr.push(i)
       console.log(numArr.join(" "))
 
@@ -19,7 +12,5 @@ function ceking(num){
   }
 }
 
-  ceking(number)
+  triangle(2)
 
-  rl.close();
-});
