@@ -6,6 +6,6 @@ function buatRentang(num1 , num2){
     }
     console.log(numArr.join(", "))
 
-  }
+}
 
 buatRentang(2,5)
