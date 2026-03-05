@@ -4,7 +4,7 @@ const rl = readline.createInterface({ input, output });
 
 numArr = []
 
-rl.question('angka ', (number) => {
+rl.question('angka? ', (number) => {
 
 function ceking(num){
     if (typeof number && number > 0 ){
