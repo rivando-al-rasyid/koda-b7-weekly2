@@ -1,11 +1,11 @@
-numArr = []
+numArr = [];
 function buatRentang(num1 , num2){
 
     for (let i = num1; i <= num2; i++) {
-      numArr.push(i)
+        numArr.push(i);
     }
-    console.log(numArr.join(", "))
+    console.log(numArr.join(", "));
 
 }
 
-buatRentang(2,5)
+buatRentang(2,5);

@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/rivando-al-rasyid/koda-b7-weekly2#readme",
   "devDependencies": {
+    "@stylistic/eslint-plugin": "^5.10.0",
     "eslint": "^10.0.2",
     "globals": "^17.4.0"
   }
